@@ -31,26 +31,6 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>gecko_sdk_4.0.2/hardware/board/inc/sl_board_control.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/hardware/board/inc/sl_board_control.h</locationURI>
-		</link>
-		<link>
-			<name>gecko_sdk_4.0.2/hardware/board/inc/sl_board_init.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/hardware/board/inc/sl_board_init.h</locationURI>
-		</link>
-		<link>
-			<name>gecko_sdk_4.0.2/hardware/board/src/sl_board_control_gpio.c</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/hardware/board/src/sl_board_control_gpio.c</locationURI>
-		</link>
-		<link>
-			<name>gecko_sdk_4.0.2/hardware/board/src/sl_board_init.c</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/hardware/board/src/sl_board_init.c</locationURI>
-		</link>
-		<link>
 			<name>gecko_sdk_4.0.2/platform/CMSIS/Include/arm_common_tables.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/CMSIS/Include/arm_common_tables.h</locationURI>
@@ -316,6 +296,11 @@
 			<locationURI>STUDIO_SDK_LOC/platform/emlib/src/em_usart.c</locationURI>
 		</link>
 		<link>
+			<name>gecko_sdk_4.0.2/protocol/bluetooth/api/sl_bt.xapi</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/protocol/bluetooth/api/sl_bt.xapi</locationURI>
+		</link>
+		<link>
 			<name>gecko_sdk_4.0.2/protocol/bluetooth/inc/sl_bgapi.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/protocol/bluetooth/inc/sl_bgapi.h</locationURI>
@@ -359,16 +344,6 @@
 			<name>gecko_sdk_4.0.2/protocol/bluetooth/inc/sli_bt_gattdb_def.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/protocol/bluetooth/inc/sli_bt_gattdb_def.h</locationURI>
-		</link>
-		<link>
-			<name>gecko_sdk_4.0.2/app/bluetooth/common/ota_dfu/sl_ota_dfu.c</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/app/bluetooth/common/ota_dfu/sl_ota_dfu.c</locationURI>
-		</link>
-		<link>
-			<name>gecko_sdk_4.0.2/app/bluetooth/common/ota_dfu/sl_ota_dfu.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/app/bluetooth/common/ota_dfu/sl_ota_dfu.h</locationURI>
 		</link>
 		<link>
 			<name>gecko_sdk_4.0.2/app/bluetooth/common/simple_timer/sl_simple_timer.c</name>
@@ -526,11 +501,6 @@
 			<locationURI>STUDIO_SDK_LOC/platform/service/device_init/inc/sl_device_init_lfrco.h</locationURI>
 		</link>
 		<link>
-			<name>gecko_sdk_4.0.2/platform/service/device_init/inc/sl_device_init_lfxo.h</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/platform/service/device_init/inc/sl_device_init_lfxo.h</locationURI>
-		</link>
-		<link>
 			<name>gecko_sdk_4.0.2/platform/service/device_init/inc/sl_device_init_nvic.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/service/device_init/inc/sl_device_init_nvic.h</locationURI>
@@ -554,11 +524,6 @@
 			<name>gecko_sdk_4.0.2/platform/service/device_init/src/sl_device_init_lfrco.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/service/device_init/src/sl_device_init_lfrco.c</locationURI>
-		</link>
-		<link>
-			<name>gecko_sdk_4.0.2/platform/service/device_init/src/sl_device_init_lfxo_s2.c</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/platform/service/device_init/src/sl_device_init_lfxo_s2.c</locationURI>
 		</link>
 		<link>
 			<name>gecko_sdk_4.0.2/platform/service/device_init/src/sl_device_init_nvic.c</name>
@@ -1089,11 +1054,6 @@
 			<name>gecko_sdk_4.0.2/platform/radio/rail_lib/protocol/zwave/rail_zwave.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/radio/rail_lib/protocol/zwave/rail_zwave.h</locationURI>
-		</link>
-		<link>
-			<name>gecko_sdk_4.0.2/protocol/bluetooth/lib/EFR32BG22/GCC/binapploader.o</name>
-			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/protocol/bluetooth/lib/EFR32BG22/GCC/binapploader.o</locationURI>
 		</link>
 		<link>
 			<name>gecko_sdk_4.0.2/protocol/bluetooth/lib/EFR32BG22/GCC/libbluetooth.a</name>

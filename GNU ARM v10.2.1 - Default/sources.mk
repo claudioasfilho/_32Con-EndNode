@@ -18,10 +18,8 @@ C_DEPS :=
 SUBDIRS := \
 . \
 autogen \
-gecko_sdk_4.0.2/app/bluetooth/common/ota_dfu \
 gecko_sdk_4.0.2/app/bluetooth/common/simple_timer \
 gecko_sdk_4.0.2/app/common/util/app_log \
-gecko_sdk_4.0.2/hardware/board/src \
 gecko_sdk_4.0.2/hardware/driver/mx25_flash_shutdown/src/sl_mx25_flash_shutdown_usart \
 gecko_sdk_4.0.2/platform/Device/SiliconLabs/EFR32BG22/Source/GCC \
 gecko_sdk_4.0.2/platform/Device/SiliconLabs/EFR32BG22/Source \
@@ -41,7 +39,6 @@ gecko_sdk_4.0.2/platform/service/power_manager/src \
 gecko_sdk_4.0.2/platform/service/sleeptimer/src \
 gecko_sdk_4.0.2/platform/service/system/src \
 gecko_sdk_4.0.2/platform/service/udelay/src \
-gecko_sdk_4.0.2/protocol/bluetooth/lib/EFR32BG22/GCC \
 gecko_sdk_4.0.2/util/silicon_labs/silabs_core/memory_manager \
 gecko_sdk_4.0.2/util/third_party/crypto/mbedtls/library \
 gecko_sdk_4.0.2/util/third_party/crypto/sl_component/se_manager/src \

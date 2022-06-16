@@ -1,9 +1,8 @@
-gecko_sdk_4.0.2/app/bluetooth/common/ota_dfu/sl_ota_dfu.o: \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2/app/bluetooth/common/ota_dfu/sl_ota_dfu.c \
+gecko_sdk_4.0.2/platform/driver/button/src/sl_button.o: \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2/platform/driver/button/src/sl_button.c \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/toolchain/inc/sl_gcc_preinclude.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/sl_bluetooth.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/service/power_manager/inc/sl_power_manager.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_power_manager_config.h \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/driver/button/inc/sl_button.h \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_common.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/em_device.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/efr32bg22c224f512im40.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/CMSIS/Include/core_cm33.h \
@@ -60,49 +59,17 @@ gecko_sdk_4.0.2/app/bluetooth/common/ota_dfu/sl_ota_dfu.o: \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/efr32bg22_prs_signals.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/efr32bg22_dma_descriptor.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/efr32bg22_ldmaxbar_defines.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_core.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_common.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_assert.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/sl_component_catalog.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/emlib_core_debug_config.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/inc/sl_slist.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/inc/sl_status.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/service/sleeptimer/inc/sl_sleeptimer.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_sleeptimer_config.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/inc/sl_enum.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_emu.h \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_gpio.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_bus.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_core.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_bluetooth_config.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_bluetooth_connection_config.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_bluetooth_advertiser_config.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//protocol/bluetooth/inc/sl_bt_stack_config.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//protocol/bluetooth/inc/sl_bt_ll_config.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_rail_util_pa_config.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/radio/rail_lib/common/rail_types.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/radio/rail_lib/chip/efr32/efr32xg2x/rail_chip_specific.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/radio/rail_lib/common/rail_features.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/radio/rail_lib/common/rail_types.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//protocol/bluetooth/inc/sl_bt_api.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//protocol/bluetooth/inc/sl_bgapi.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//protocol/bluetooth/inc/sl_bt_api_compatibility.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/gatt_db.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//protocol/bluetooth/inc/sli_bt_gattdb_def.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//app/common/util/app_assert/app_assert.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/app_assert_config.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//app/common/util/app_log/app_log.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/service/iostream/inc/sl_iostream.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/sl_iostream_handles.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/sl_iostream_init_usart_instances.h \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_common.h \
  /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/sl_component_catalog.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/service/iostream/inc/sl_iostream_uart.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/service/iostream/inc/sl_iostream.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/app_log_config.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2/app/bluetooth/common/ota_dfu/sl_ota_dfu.h
+ /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/emlib_core_debug_config.h \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/inc/sl_status.h
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/toolchain/inc/sl_gcc_preinclude.h:
-/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/sl_bluetooth.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/service/power_manager/inc/sl_power_manager.h:
-/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_power_manager_config.h:
+/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/driver/button/inc/sl_button.h:
+/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_common.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/em_device.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/efr32bg22c224f512im40.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/CMSIS/Include/core_cm33.h:
@@ -159,42 +126,11 @@ gecko_sdk_4.0.2/app/bluetooth/common/ota_dfu/sl_ota_dfu.o: \
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/efr32bg22_prs_signals.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/efr32bg22_dma_descriptor.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/efr32bg22_ldmaxbar_defines.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_core.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_common.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_assert.h:
-/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/sl_component_catalog.h:
-/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/emlib_core_debug_config.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/inc/sl_slist.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/inc/sl_status.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/service/sleeptimer/inc/sl_sleeptimer.h:
-/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_sleeptimer_config.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/inc/sl_enum.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_emu.h:
+/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_gpio.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_bus.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_core.h:
-/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_bluetooth_config.h:
-/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_bluetooth_connection_config.h:
-/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_bluetooth_advertiser_config.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//protocol/bluetooth/inc/sl_bt_stack_config.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//protocol/bluetooth/inc/sl_bt_ll_config.h:
-/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_rail_util_pa_config.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/radio/rail_lib/common/rail_types.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/radio/rail_lib/chip/efr32/efr32xg2x/rail_chip_specific.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/radio/rail_lib/common/rail_features.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/radio/rail_lib/common/rail_types.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//protocol/bluetooth/inc/sl_bt_api.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//protocol/bluetooth/inc/sl_bgapi.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//protocol/bluetooth/inc/sl_bt_api_compatibility.h:
-/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/gatt_db.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//protocol/bluetooth/inc/sli_bt_gattdb_def.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//app/common/util/app_assert/app_assert.h:
-/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/app_assert_config.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//app/common/util/app_log/app_log.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/service/iostream/inc/sl_iostream.h:
-/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/sl_iostream_handles.h:
-/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/sl_iostream_init_usart_instances.h:
+/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_common.h:
 /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/sl_component_catalog.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/service/iostream/inc/sl_iostream_uart.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/service/iostream/inc/sl_iostream.h:
-/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/app_log_config.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2/app/bluetooth/common/ota_dfu/sl_ota_dfu.h:
+/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/emlib_core_debug_config.h:
+/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/inc/sl_status.h:

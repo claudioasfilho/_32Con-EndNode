@@ -57,7 +57,7 @@
     <characteristic const="true" id="Text" name="Text" sourceId="" uuid="3a4855f6-2f9c-4005-815b-df746358668e">
       <description>Text</description>
       <informativeText/>
-      <value length="0" type="hex" variable_length="true">00</value>
+      <value length="255" type="hex" variable_length="false">00</value>
       <properties>
         <notify authenticated="false" bonded="false" encrypted="false"/>
       </properties>

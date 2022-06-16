@@ -19,6 +19,7 @@ include:
 sdk: {id: gecko_sdk, version: 4.0.2}
 toolchain_settings: []
 component:
+- {id: mx25_flash_shutdown_usart}
 - {id: app_log}
 - {id: bluetooth_feature_connection}
 - {id: bluetooth_feature_gatt_server}
@@ -33,8 +34,6 @@ component:
 - {id: bluetooth_feature_scanner}
 - {id: bluetooth_stack}
 - {id: component_catalog}
-- {id: ota_dfu}
-- {id: brd4184a}
 - {id: bootloader_interface}
 - {id: rail_util_pti}
 - {id: app_assert}

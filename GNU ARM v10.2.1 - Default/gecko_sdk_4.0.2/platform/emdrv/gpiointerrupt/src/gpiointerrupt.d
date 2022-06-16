@@ -1,10 +1,7 @@
-gecko_sdk_4.0.2/platform/service/device_init/src/sl_device_init_lfxo_s2.o: \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2/platform/service/device_init/src/sl_device_init_lfxo_s2.c \
+gecko_sdk_4.0.2/platform/emdrv/gpiointerrupt/src/gpiointerrupt.o: \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2/platform/emdrv/gpiointerrupt/src/gpiointerrupt.c \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/toolchain/inc/sl_gcc_preinclude.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/service/device_init/inc/sl_device_init_lfxo.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/inc/sl_status.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_device_init_lfxo_config.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_cmu.h \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_gpio.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/em_device.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/efr32bg22c224f512im40.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/CMSIS/Include/core_cm33.h \
@@ -67,13 +64,12 @@ gecko_sdk_4.0.2/platform/service/device_init/src/sl_device_init_lfxo_s2.o: \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_common.h \
  /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/sl_component_catalog.h \
  /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/emlib_core_debug_config.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_cmu_compat.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_gpio.h
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_core.h \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emdrv/gpiointerrupt/inc/gpiointerrupt.h \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_assert.h \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_common.h
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/toolchain/inc/sl_gcc_preinclude.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/service/device_init/inc/sl_device_init_lfxo.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/inc/sl_status.h:
-/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_device_init_lfxo_config.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_cmu.h:
+/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_gpio.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/em_device.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/efr32bg22c224f512im40.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/CMSIS/Include/core_cm33.h:
@@ -136,5 +132,7 @@ gecko_sdk_4.0.2/platform/service/device_init/src/sl_device_init_lfxo_s2.o: \
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_common.h:
 /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/sl_component_catalog.h:
 /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/emlib_core_debug_config.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_cmu_compat.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_gpio.h:
+/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_core.h:
+/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emdrv/gpiointerrupt/inc/gpiointerrupt.h:
+/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_assert.h:
+/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_common.h:

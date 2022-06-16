@@ -1,11 +1,9 @@
-gecko_sdk_4.0.2/hardware/board/src/sl_board_control_gpio.o: \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2/hardware/board/src/sl_board_control_gpio.c \
+autogen/sl_simple_button_instances.o: \
+ ../autogen/sl_simple_button_instances.c \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/toolchain/inc/sl_gcc_preinclude.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//hardware/board/inc/sl_board_control.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/inc/sl_status.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/inc/sl_enum.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_board_control_config.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_gpio.h \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/driver/button/inc/sl_simple_button.h \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/driver/button/inc/sl_button.h \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_common.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/em_device.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/efr32bg22c224f512im40.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/CMSIS/Include/core_cm33.h \
@@ -63,17 +61,18 @@ gecko_sdk_4.0.2/hardware/board/src/sl_board_control_gpio.o: \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/efr32bg22_dma_descriptor.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/efr32bg22_ldmaxbar_defines.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_assert.h \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_gpio.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_bus.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_core.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_common.h \
  /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/sl_component_catalog.h \
- /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/emlib_core_debug_config.h
+ /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/emlib_core_debug_config.h \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/inc/sl_status.h \
+ /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_simple_button_btn0_config.h
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/toolchain/inc/sl_gcc_preinclude.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//hardware/board/inc/sl_board_control.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/inc/sl_status.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/inc/sl_enum.h:
-/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_board_control_config.h:
-/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_gpio.h:
+/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/driver/button/inc/sl_simple_button.h:
+/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/driver/button/inc/sl_button.h:
+/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_common.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/em_device.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/efr32bg22c224f512im40.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/CMSIS/Include/core_cm33.h:
@@ -131,8 +130,11 @@ gecko_sdk_4.0.2/hardware/board/src/sl_board_control_gpio.o: \
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/efr32bg22_dma_descriptor.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/Device/SiliconLabs/EFR32BG22/Include/efr32bg22_ldmaxbar_defines.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_assert.h:
+/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_gpio.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_bus.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_core.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/emlib/inc/em_common.h:
 /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/sl_component_catalog.h:
 /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/emlib_core_debug_config.h:
+/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk2//platform/common/inc/sl_status.h:
+/Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/config/sl_simple_button_btn0_config.h:
