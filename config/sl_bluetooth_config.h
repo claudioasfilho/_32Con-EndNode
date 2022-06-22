@@ -28,7 +28,7 @@
 // <o SL_BT_CONFIG_MAX_SOFTWARE_TIMERS> Max number of software timers <0-16>
 // <i> Default: 4
 // <i> Define the number of software timers the application needs.  Each timer needs resources from the stack to be implemented. Increasing amount of soft timers may cause degraded performance in some use cases.
-#define SL_BT_CONFIG_MAX_SOFTWARE_TIMERS     (4)
+#define SL_BT_CONFIG_MAX_SOFTWARE_TIMERS     4
 
 #ifdef SL_CATALOG_BLUETOOTH_FEATURE_SYNC_PRESENT
 #include "sl_bluetooth_periodic_sync_config.h"

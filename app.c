@@ -343,19 +343,17 @@ SL_WEAK void app_process_action(void)
       if (offset <= myTextsize)
             {
 
-            //  if(counter++ == 1){
 
-       //  do {
+         do {
               sc = sl_bt_gatt_server_send_notification(1, gattdb_Text,
                                                 connection_MTU-5,
                                                 &myText[offset]);
+              if (offset >= myTextsize) break;
              offset+= connection_MTU-5;
-     //        counter = 0;
-           //   }
-            // app_log("%d \n\r", offset );
-        //    }
-        //    while(sc == 0);
-            //app_log_info("%x", sc);
+
+
+            }
+            while(sc == 0);
 
             }
 
