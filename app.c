@@ -35,8 +35,10 @@
 #include "stdio.h"
 #include "sl_simple_timer.h"
 #include "app_log.h"
-
+#include "em_gpio.h"
 //extern const volatile uint8_t myText[];
+
+const uint8_t myText2[] = {"Initial Response"};
 
 const uint8_t myText[] = {
     "It was close upon half-past six and the evening shadows were growing"
@@ -275,6 +277,11 @@ uint8_t connection_MTU;
 uint16_t myTextsize;
 volatile int16_t offset = 0;
 
+#define BSP_BUTTON1_PORT gpioPortB
+#define BSP_BUTTON1_PIN 1
+
+static bool Txenabled = 0;
+
 /**************************************************************************//**
  * Application Init.
  *****************************************************************************/
@@ -289,6 +296,17 @@ SL_WEAK void app_init(void)
   myTextsize = sizeof(myText);
 
   app_log("The size of the file is: %d \n\n\n\n",myTextsize );
+
+  GPIO_PinModeSet(BSP_BUTTON1_PORT, BSP_BUTTON1_PIN, gpioModeInput, 0);
+
+  if(GPIO_PinInGet(BSP_BUTTON1_PORT, BSP_BUTTON1_PIN)==0)
+       {
+         Txenabled = 1;
+         //Lcounter = 0;
+        // txOffset = 0;
+       }
+
+
 
 //  for(long loop = 0; loop < myTextsize ; loop++)
 //     app_log("%c ", myText[loop]);
@@ -310,9 +328,17 @@ SL_WEAK void app_process_action(void)
  // static uint8_t counter = 0;
 
 
+  if(GPIO_PinInGet(BSP_BUTTON1_PORT, BSP_BUTTON1_PIN)==0)
+     {
+       Txenabled = 1;
+       //Lcounter = 0;
+      // txOffset = 0;
+     }
 
 
-  if ( Notification_enabled == 1)
+
+
+  if (( Notification_enabled == 1)&&(Txenabled == 1))
     {
       if (offset <= myTextsize)
             {
@@ -333,8 +359,12 @@ SL_WEAK void app_process_action(void)
 
             }
 
+    }
 
-
+  if (offset > myTextsize)
+    {
+      Txenabled = 0;
+      offset = 0;
     }
 
 }
@@ -373,6 +403,11 @@ static void app_periodic_timer_cb(sl_simple_timer_t *timer, void *data)
 //
 //      }
 
+  sl_bt_gatt_server_send_notification(1, gattdb_Text,
+                                                 sizeof(myText2),
+                                                 &myText2);
+
+  sl_simple_timer_stop(&app_periodic_timer);
 
 }
 
@@ -449,14 +484,18 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
                  {
                    Notification_enabled = 1;
                    connection = evt->data.evt_gatt_server_characteristic_status.connection;
-                   app_log(" Notification_enabled = 1");
+                   //app_log(" Notification_enabled = 1");
 
-                   sc = sl_simple_timer_start(&app_periodic_timer,
-                                                 DATA_NOTIFICATION_INTERVAL,
-                                                 app_periodic_timer_cb,
-                                                 NULL,
-                                                 true);
-                      app_assert_status(sc);
+                  Txenabled = 1;
+
+//                   sc = sl_simple_timer_start(&app_periodic_timer,
+//                                                 DATA_NOTIFICATION_INTERVAL,
+//                                                 app_periodic_timer_cb,
+//                                                 NULL,
+//                                                 true);
+//                      app_assert_status(sc);
+
+
                  }
                else if(sl_bt_gatt_disable == (sl_bt_gatt_client_config_flag_t)evt->data.evt_gatt_server_characteristic_status.client_config_flags)
                  {
@@ -485,6 +524,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
     // This event indicates that a new connection was opened.
     case sl_bt_evt_connection_opened_id:
       Notification_enabled = 0;
+      Txenabled = 0;
       offset = 0;
 
       //sl_bt_connection_set_preferred_phy(1,2,2);
@@ -496,6 +536,7 @@ void sl_bt_on_event(sl_bt_msg_t *evt)
 
       Notification_enabled = 0;
       offset = 0;
+      Txenabled = 0;
       sl_simple_timer_stop(&app_periodic_timer);
       // Restart advertising after client has disconnected.
       sc = sl_bt_advertiser_start(

@@ -99,7 +99,8 @@ app.o: ../app.c \
  /Users/clfilho/SimplicityStudio/May_22/soc_text_BG22/autogen/gatt_db.h \
  /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk1//protocol/bluetooth/inc/sli_bt_gattdb_def.h \
  ../app.h \
- /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk1//app/bluetooth/common/simple_timer/sl_simple_timer.h
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk1//app/bluetooth/common/simple_timer/sl_simple_timer.h \
+ /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk1//platform/emlib/inc/em_gpio.h
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk1//platform/common/toolchain/inc/sl_gcc_preinclude.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk1//platform/emlib/inc/em_common.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk1//platform/Device/SiliconLabs/EFR32BG22/Include/em_device.h:
@@ -201,3 +202,4 @@ app.o: ../app.c \
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk1//protocol/bluetooth/inc/sli_bt_gattdb_def.h:
 ../app.h:
 /Users/clfilho/SimplicityStudio/SDKs/gecko_sdk1//app/bluetooth/common/simple_timer/sl_simple_timer.h:
+/Users/clfilho/SimplicityStudio/SDKs/gecko_sdk1//platform/emlib/inc/em_gpio.h:
